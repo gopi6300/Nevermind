@@ -1,3 +1,9 @@
+*{
+	font-family: 'Montserrat';
+font-style: normal;
+line-height: 24px;
+
+}
 /*Header*/
 #header{
     display: flex;
@@ -76,104 +82,38 @@
 #simple{
 	float: right;
 	margin-right: 160px;
-	font-family: 'helvetica';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 110%;
 	color: #404040;
 }
 #exwords1{
-	font-family: 'helvetica';
-	font-style: normal;
 	font-weight: 900;
-	font-size: 30px;
+	font-size: 35px;
 	color: #606060;
 
 }
 #exwords2{
-	
-	font-family: 'helvetica';
-	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 30px;
 	color: #D198FF;
 }
 
-nav{
-	gap: 10px;
-	background: #FFFFFF;
-	padding: 10px;
-	width: 330px;
-	border-radius: 12px;
-	border: 1px solid #000000;
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.125);
-}
-nav label{
-  font-size: 22px;
-  font-weight: 500;
-  display: block;
-  cursor: pointer;
-}
-.button span{
-  line-height: 35px;
-  transition: 0.5s;
-}
-.button span.rotate{
-  transform: rotate(-180deg);
-}
-
-nav ul{
-  list-style: none;
-  width: 100%;
-  border-radius: 12px;
-  display: none;
-}
-[id^=btn]:checked + ul{
-  display: block;
-}
-nav .menu:before{
-  margin-top: 170px;
-  content: '';
-  width: 20px;
-  background: #1b1b1b;
-  transform: rotate(45deg);
-  z-index: -1;
-}
-nav ul li{
-  line-height: 40px;
- 
-  cursor: pointer;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-nav ul li a{
-  text-decoration: none;
-  font-size: 18px;
-  
-}
-nav ul li a:hover,
-nav ul li label:hover{
-  color: cyan;
-}
-input{
-  display: none;
-}
-
 #playstorelink{
     width: 20%;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	gap: 10px;
-	margin-top: 15px;
-	position: absolute;
-	background: #86E1FF;
-	border: 1px solid #000000;
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.125);
-	border-radius: 12px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		gap: 10px;
+		margin-top: 15px;
+		position: absolute;
+		background: #86E1FF;
+		border: 1px solid #000000;
+		box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.125);
+		border-radius: 12px;
 }
 
 /*......second part.......*/
@@ -183,8 +123,6 @@ input{
 	background: rgba(136, 96, 208, 0.9);
 }
 #heading2{
-	font-family: 'helvetica';
-	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 37px;
@@ -205,9 +143,7 @@ input{
 	gap: 30px;
 }
 .disc3{
-	font-family: 'helvetica';
-	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 27px;
 	color: #FFFFFF;
@@ -216,9 +152,7 @@ input{
 	flex-grow: 0;
 }
 .disc32{
-	font-family: 'helvetica';
-	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 25px;
 	color: #FFFFFF;
@@ -247,14 +181,12 @@ background: #508A7A;
 
 /*coursel*/
 #heading3{
-	font-family: 'helvetica';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 37px;
-text-align: center;
-color: #606060;
-padding: 20px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #606060;
+	padding: 20px;
 }
 
 .stars{
@@ -264,8 +196,6 @@ padding: 20px;
 	width: 50%;
 	margin: auto;
 	padding: 20px;
-	font-family: 'helvetica';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
