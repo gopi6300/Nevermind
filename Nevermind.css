@@ -1,3 +1,5 @@
+
+	
 *{
 	font-family: 'Montserrat';
 font-style: normal;
@@ -99,7 +101,7 @@ line-height: 24px;
 }
 
 #playstorelink{
-    width: 22%;
+    width: 440px;
 	color: #000000;
 	box-sizing: border-box;
 	display: flex;
@@ -237,10 +239,7 @@ background: #508A7A;
 }
 #name3{
 	color: white;
-	position: absolute;
-    width: 20%;
-    text-align: center;
-    left: 38%;
+    width: 350px;
     box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
@@ -251,6 +250,10 @@ background: #508A7A;
 	background: #151515;
 	border: 1px solid #000000;
 	border-radius: 25px;
+}
+#name3div{
+    display: flex;
+    justify-content: center;
 }
 #footer{
 	background: #B4ECFF;
@@ -267,7 +270,7 @@ background: #508A7A;
 	padding: 10px;
 }
 .socialmediaicons{
-	padding: 15px;
+	padding: 10px;
 	margin-bottom: 10px;
 	width: 28.01px;
 	height: 28.73px;
