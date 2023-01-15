@@ -49,16 +49,6 @@
         #thirdpart .box32{
             text-align: center; width: 550px;
         }
-        .carousel-indicators{
-            top: 300px;
-        }
-        .carousel-control-prev{
-            top: 0%; bottom: 10%; margin-left: 10%;
-        }
-        .carousel-control-next{
-            top: 0%; bottom: 10%; margin-right: 10%;
-        }
-        
 
         .second_container{
             display: none;
@@ -68,7 +58,9 @@
     @media only screen and (max-width: 576px) {
         /* For mobile phones: */
 
-       
+        #header{
+            justify-content: center;
+        }
         .container .col-sm-4 .col-sm-6 .row .box1 .box2 .box3 .col-lg-6{
         min-width: 100%;
         width : 100%;
@@ -125,9 +117,6 @@
     </head>
 <body>
 
- 
-
-
 
 <!--Header-->
     <header id="header">
@@ -147,7 +136,7 @@
             <div class="col-sm-4 box2">
                 <h1 id="exwords1" >Everytime you open <br>social media,</h1>
                 <h1 id="exwords2">Learn Something New!</h1>
-                <p>So that you NEVER have to MIND about learning, have some fun in Social media and let the learning become unconscious</p>
+                <p style="font-size: 16px;">So that you NEVER have to MIND about learning, have some fun in Social media and let the learning become unconscious</p>
                 
               <div id="div_playstore">
               <button id="playstorelink">
@@ -158,13 +147,13 @@
             </div>
             
             <div class="col-sm-4 box3">
-                <h5 style="padding-left: 1%; color:  #2D2D2D; font-weight: 600;">YOU CAN LEARN</h5>
+                <h5 style="padding-left: 1%; color:  #2D2D2D; font-weight: 600; font-size: 20px;">YOU CAN LEARN</h5>
                 <ul id="frontlist">
-                    <li class="links-1"><u><a src="#"><h6> Vocabularry</h6></a></u></li>
-                    <li class="links-1"><a src="#"><u><h6>Improve Vocabularry</h6></u> </a></li>
-                    <li class="links-2"><a src="#">IELTS Vocabularry (coming soon)</a></li>
-                    <li class="links-2"><a src="#">TOFEL Vocabularry (coming soon)</a></li>
-                    <li class="links-2"><a src="#">CAT Vocabularry (coming soon)</a></li>
+                    <li class="links-1" style=" padding: 10px 10px 16.5px 10px"><u><a src="#"><h6 style="font-size: 16px; margin: 0px; "> Vocabulary</h6></a></u></li>
+                    <li class="links-1" style=" padding: 10px 10px 16.5px 10px"><u><a src="#"><h6  style="font-size: 16px; margin: 0px;" >Improve Vocabulary</h6></a></u></li>
+                    <li class="links-2"><a src="#">IELTS Vocabulary (coming soon)</a></li>
+                    <li class="links-2"><a src="#">TOFEL Vocabulary (coming soon)</a></li>
+                    <li class="links-2"><a src="#">CAT Vocabulary (coming soon)</a></li>
                     <li class="links-2"><a src="#">Geography (coming soon)</a></li>
                 </ul>
             </div>
@@ -176,9 +165,9 @@
     <div class="container-fluid box second_container" id="firstbox "> 
         <div class="row " style="justify-content: center;">
             <div class="col-sm-4 box1">
-                <h1 id="exwords1">Everytime you open <br>social media,</h1>
-                <h1 id="exwords2" >Learn Something New!</h1>
-                <p>So that you NEVER have to MIND about learning, have some fun in Social media and let the learning become unconscious</p>
+                <h1 id="exwords1" style="font-size: 30px;">Everytime you open <br>social media,</h1>
+                <h1 id="exwords2" style="font-size: 30px;" >Learn Something New!</h1>
+                <p style="font-size: 14px;">So that you NEVER have to MIND about learning, have some fun in Social media and let the learning become unconscious</p>
             </div>
             <div class="col-sm-4 box2">
                 <centre>
@@ -187,14 +176,19 @@
             </div>
                 <div  class="col-sm-4 box3">
                 <div class="dropdown" id="navbar1" style="text-align: center;">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 80%; padding: 10px; border-radius: 12px;">
-                      Dropdown link
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 80%; padding: 10px; margin-top: 15px; border-radius: 12px; color: black; border: 1px solid black; background-color: white;">
+                     YOU CAN LEARN
                     </a>
                   
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width: 80%; left: 40px;" >
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width: 80%; left: 42px;" >
+                        <ul style="list-style: none;">
+                            <li class="links-1"><a class="dropdown-item" href="#" style=" text-decoration: underline; font-size: 15px;">GRE Vocabulary</a></li>
+                            <li class="links-1"><a class="dropdown-item" href="#" style=" text-decoration: underline; font-size: 15px;">Improve Vocabulary</a></li>
+                            <li class="links-2"><a class="dropdown-item" href="#">IELTS Vocabulary (coming soon)</a></li>
+                            <li class="links-2"><a class="dropdown-item" href="#">TOFEL Vocabulary (coming soon)</a></li>
+                            <li class="links-2"><a class="dropdown-item" href="#">CAT Vocabulary (coming soon)</a></li>
+                            <li class="links-2"><a class="dropdown-item" href="#">Geography (coming soon)</a></li>
+                        </ul>                                                                                        
                     </div>
                   </div>
                   <div id="div_playstore">
@@ -299,14 +293,14 @@
 <!--coursole-->
 
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" data-ride="carousel" data-interval="1000" style="height: 400px;">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" data-ride="carousel" style="height: 400px;">
          <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: black;  width: 5px;"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: black;  width: 5px;"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: black; width: 5px;" ></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"  style="background-color: black; width: 5px;" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  style="background-color: black; width: 5px;"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" style="background-color: black; width: 5px;"></button>
   </div>
     <h4 id="heading3">User reviews</h4>
-  <div class="carousel-inner" style="height: 250px;">
+  <div class="carousel-inner" style="height: 300px;">
     <div class="carousel-item active">
       <div style="padding: 20px; text-align: center;">
         <span style='font-size:25px;'>&#9733;</span>
@@ -316,8 +310,8 @@
         <span style='font-size:25px;'>&#9733;</span>
        </div>           
       <div style="text-align: center;" >
-        <h5>“What do you want?"</h5>
-        <div class="coursel-content" style="padding: 1% 30% 1% 30%;">"Just coffee. Black - like my soul.” "Just coffee. Black - like my soul.” "Just coffee. Black - like my soul.”  "Just coffee. Black - like my soul.”</div>
+        <h5 style="font-size:18px; padding: 1% 30% 1% 30%;">"Just coffee. Black - like my soul.” "Just coffee. Black - like my soul.” "Just coffee. Black - like my soul.”  "Just coffee. Black - like my soul.”</h5>
+        <div class="coursel-content" style=" font-size: 18px;">Rishik Jain</div>
       </div>
     </div>
     <div class="carousel-item">
@@ -329,8 +323,8 @@
         <span style='font-size:25px;'>&#9733;</span>
        </div>           
       <div style="text-align: center;" >
-        <h5>“What do you want?"</h5>
-        <div class="coursel-content" style="padding: 1% 30% 1% 30%;">"Just coffee. Black - like my soul.”</div>
+        <h5 style="padding: 1% 30% 1% 30%;">“What do you want?"</h5>
+        <div class="coursel-content" >"Just coffee. Black - like my soul.”</div>
       </div>
     </div>
     <div class="carousel-item">
@@ -342,8 +336,8 @@
         <span style='font-size:25px;'>&#9733;</span>
        </div>           
       <div style="text-align: center;" >
-        <h5>“What do you want?"</h5>
-        <div class="coursel-content" style="padding: 1% 30% 1% 30%;">"Just coffee. Black - like my soul.”</div>
+        <h5 style="padding: 1% 30% 1% 30%;">“What do you want?"</h5>
+        <div class="coursel-content" >"Just coffee. Black - like my soul.”</div>
       </div>
     </div>
   </div>
