@@ -113,9 +113,8 @@ line-height: 24px;
 }
 .links-2 {
     padding: 10px;
-}
-.links-2{
-    color: #848282;
+	color: #848282;
+	font-size: 16px;
 }
 .links-1:hover{
     color: #508A7A;
